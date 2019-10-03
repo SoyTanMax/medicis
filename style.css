@@ -214,3 +214,70 @@ Exposiciones recientes
     grid-column:4;
     grid-row: 5;
 }
+
+/********************************************
+Servicios
+********************************************/
+
+.servicios{
+    background-image: url(background2.jpg);
+    height: 100vh;
+    /*parallax scrolling effect*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*styles servicios-text*/
+
+.jumbotron-2{
+    height: 100vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: right;
+    justify-items: center;
+}
+.servicios-title{
+    font-size: 80px;
+    color: white;
+    text-align: right;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.servicios-text{
+    font-size: 15px;
+    color: white; 
+    text-align: white; 
+    grid-column: 2;
+    grid-row: 3;
+    justify-content: center;
+}
+
+.btn-3 {
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 300px;
+    width:120px;
+    height: 45px;
+    font-size: 10px;
+    grid-column: 2;
+    grid-row: 4;
+    align-self: start;
+    color: white;
+}
+
+.btn-primary-3 {
+    background-color: transparent;
+    border-color: white; 
+}
+  
+.btn-primary-3:hover {
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    color: black;
+}
