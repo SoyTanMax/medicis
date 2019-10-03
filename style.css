@@ -1,0 +1,216 @@
+body{
+    background-color: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+/**********************************************
+Header
+**********************************************/
+
+.collapse{
+    justify-content: flex-end;
+    padding:0px;
+}
+
+.nav-item{
+    font-size: 13px;
+}
+
+/**********************************************
+Title
+**********************************************/
+
+/*Background image*/
+
+.title-section{
+    background-image: 
+    linear-gradient(rgba(245, 246, 252, 0.65), rgba(34, 235, 141, 0.35)),
+    url(background.jpg);
+    height: 100vh;
+    /*parallax scrolling effect*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Create grid and ajust items*/
+
+.jumbotron{
+    display:grid;
+    grid-gap: 0;
+    grid-template-columns:repeat(autofit, minmax(100px, 1fr));
+    grid-template-rows: 1fr 2fr 3fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title-text{
+    color:white;
+    align-self: end;
+    padding: 0;
+}
+
+h1{
+    font-size:20px;
+}
+
+.title-img{
+    align-self: start;
+    width: minmax(10%,100%);
+}
+
+/*Btn*/
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    width:240px;
+}
+  
+.btn-xl {
+    padding: 1rem 2rem; 
+}
+  
+.btn-primary {
+    background-color: rgb(102, 102, 102);
+    border-color: rgb(102, 102, 102); 
+}
+  
+.btn-primary:hover {
+    background-color: rgba(102, 102, 102, 0.7);
+    border-color: rgba(102, 102, 102, 0.7);
+    cursor: pointer;
+}
+
+.title-content {
+    height: 100%;
+}
+
+.title-btn{
+    align-self: center;
+}
+
+/********************************************
+Exposiciones recientes
+********************************************/
+
+/*Create second grid*/
+.event-container{
+    height: 100vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+/*styling images*/
+
+.event-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*aligning title*/
+
+.event-item-1{
+    grid-column: 2/5;
+    grid-row-start:2;
+    align-self: end;
+}
+
+.event-title{
+    text-align: center;
+    font-size: 25px;
+}
+/*aligning images*/
+
+.event-item-2{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.event-item-3{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.event-item-4{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+/*styling text*/
+.event-text{
+    text-align: left;
+    font-size: 15px;
+}
+
+.e-title{
+    color: rgb(142, 212, 43);
+    text-transform: uppercase;
+}
+
+.e-date{
+    text-transform: uppercase;
+}
+/*aligning text*/
+
+.event-item-5{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.event-item-6{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.event-item-7{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+/*styling btns*/
+
+.btn-2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 300px;
+    width:120px;
+    height: 45px;
+    font-size: 10px;
+    align-self: left;
+}
+
+.btn-primary-2 {
+    background-color: white;
+    border-color: rgb(142, 212, 43); 
+}
+  
+.btn-primary-2:hover {
+    background-color: rgb(142, 212, 43);
+    border-color: rgb(142, 212, 43);
+    cursor: pointer;
+    color: white;
+}
+
+/*aligning btns*/
+
+.event-item-8{
+    grid-column:2;
+    grid-row: 5;
+}
+
+.event-item-9{
+    grid-column:3;
+    grid-row: 5;
+}
+
+.event-item-10{
+    grid-column:4;
+    grid-row: 5;
+}

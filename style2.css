@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 520px) {
+  .display-1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* iPad with portrait orientation. */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .title-section {
+    height: 1024px;
+  }
+}
+
+/* iPad with landscape orientation. */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  .title-section {
+    height: 768px;
+  }
+}
+
+.title-content {
+  height: 100%;
+}
