@@ -4,122 +4,139 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MEDICIS</title>
-    <!--Bulma CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    <!--Custom styesheet-->
-    <link rel="stylesheet" type="text/css" href="./newstyle.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!--Bulma Stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
   </head>
   <body>
-    <!--Navbar-->
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-                <img src="logo3.png" width="60" height="60">
-            </a>
-          
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/.index.html">
+                <img src="logom.png" width="30" height="60">
+                </a>
+            
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-            </a>
-        </div>
-          
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-end navbar-items">
-                <a class="navbar-item">
-                  INICIO
                 </a>
-          
-                <a class="navbar-item">
-                  PORTAFOLIO
-                </a>
-
-                <a class="navbar-item">
-                    SERVICIOS
-                </a>
-          
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    MÁS
-                  </a>
-          
-                    <div class="navbar-dropdown is-right">
-                        <a class="navbar-item">
-                        NOSOTROS
+            </div>
+            
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item">
+                        INICIO
+                    </a>
+                
+                    <a class="navbar-item">
+                        PORTAFOLIO
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                        MÁS
                         </a>
-                        <a class="navbar-item">
-                        CONTACTO
-                        </a>
+                
+                        <div class="navbar-dropdown is-right">
+                            <a class="navbar-item">
+                                NOSOTROS
+                            </a>
+                            <a class="navbar-item">
+                                CONTACTO
+                            </a>
+                        </div>
                     </div>
+            </div>
+        </nav>
+    <section class="hero">
+        <div class="hero-body bg-img center">
+            <div class="container">
+                <div class="center is-size-5">
+                    <h1>B I E N V E N I D O S</h1>
+                </div>
+                <div class="center">
+                    <figure class="image">
+                        <img src="logo2.png" style="max-width: 400px;">
+                    </figure>
+                </div>
+                <div class="center">
+                    <a class="button button-1 is-rounded" style="color: white; background-color:rgb(102,102,102); border-color: rgb(102,102,102);">Nuestra Historia</a>
                 </div>
             </div>
         </div>
-    </nav>
-    <!--Title section-->
-    <div class="title-section hero">
-        <p class=".display-1 title-text">B I E N V E N I D O S<p>
-        <div class="title-img"><img src="logo2.png"></div>
-        <a class="button title-button is-rounded">NUESTRA HISTORIA</a>
-    </div>
-    <!--Exposiciones Recientes-->
-    <div class="event-hero">
-        <div class="event-item event-item-1">
-            <p class="event-title">Exposiciones Recientes</p>
-        </div>
-        <figure class="event-item event-item-2">
-            <img src="slideshow.jpg" class="event-img" alt="Image 1">
-        </figure>
-        <figure class="event-item event-item-3">
-            <img src="slideshow2.jpg" class="event-img" alt="Image 1">
-        </figure>
-        <figure class="event-item event-item-4">
-            <img src="slideshow3.jpg" class="event-img" alt="Image 1">
-        </figure>
-            
-        <div class="event-item event-item-5">
-            <p class="event-text">
-                <strong class="e-title">CONARTE NIÑOS</strong> 
-                <br>
-                <p class="e-date">Fecha</p>
-                <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nobis alias deleniti aut animi nihil ullam omnis labore dolor officiis soluta accusantium cumque, laborum facilis nesciunt. Sequi vel repudiandae asperiores!
-            </p>
-        </div>
-        <div class="event-item event-item-6">
-            <p class="event-text">
-                <strong class="e-title">EXPOSICIÓN 2</strong> 
-                <br>
-                <p class="e-date">Fecha</p>
-                <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nobis alias deleniti aut animi nihil ullam omnis labore dolor officiis soluta accusantium cumque, laborum facilis nesciunt. Sequi vel repudiandae asperiores!
-            </p>
-        </div>
-        <div class="event-item event-item-7">
-            <p class="event-text">
-                <strong class="e-title">EXPOSICIÓN 3</strong> 
-                <br>
-                <p class="e-date">Fecha</p>
-                <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nobis alias deleniti aut animi nihil ullam omnis labore dolor officiis soluta accusantium cumque, laborum facilis nesciunt. Sequi vel repudiandae asperiores!
-            </p>
-        </div>
-            <div class="event-item event-item-8">
-                <button class="button-2 btn-primary-2 btn-xl container-btn">VER MÁS<Script></Script></button>
-            </div>
-            <div class="event-item event-item-9">
-                <button class="button-2 btn-primary-2 btn-xl container-btn">VER MÁS</button>
-            </div>
-            <div class="event-item event-item-10">
-                <button class="button-2 btn-primary-2 container-btn">VER MÁS</button>
+    </section>
+    <section class="section">
+        <h1 class="title center" style="padding-top:3rem; padding-bottom: 3rem;">Exposiciones Recientes</h1>
+        <div class="container" style="padding-bottom: 2rem;">
+            <div class="columns">
+                <div class="column">
+                    <div>
+                        <figure><img src="slideshow.jpg" class=""></figure>
+                        <p class="is-size-4" style="padding-bottom: 1rem;">Exposición 1</p>
+                        <p class="is-size-5" style="padding-bottom: 1rem;">Fecha</p>
+                        <p class="is-size-6" style="padding-bottom: 2rem;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quam odio magnam? Fugit illum hic blanditiis, non dolor, error facilis aperiam natus, dolores pariatur illo delectus praesentium. Rerum, iste.
+                        </p>
+                        <div class="center event-item event-item-8">
+                            <button class="button-2 btn-primary-2">VER MÁS<Script></Script></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <figure><img src="slideshow2.jpg" class="is-128x128"></figure>
+                        <p class="is-size-4" style="padding-bottom: 1rem;">Exposición 2</p>
+                        <p class="is-size-5" style="padding-bottom: 1rem;">Fecha</p>
+                        <p class="is-size-6" style="padding-bottom: 2rem;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quam odio magnam? Fugit illum hic blanditiis, non dolor, error facilis aperiam natus, dolores pariatur illo delectus praesentium. Rerum, iste.
+                        </p> 
+                        <div class="center event-item event-item-8">
+                            <button class="button-2 btn-primary-2">VER MÁS<Script></Script></button>
+                        </div>                   
+                    </div>                
+                </div>
+                <div class="column">
+                    <div>
+                        <figure><img src="slideshow3.jpg" class="is-128x128"></figure>
+                        <p class="is-size-4" style="padding-bottom: 1rem;">Exposición 3</p>
+                        <p class="is-size-5" style="padding-bottom: 1rem;">Fecha</p>
+                        <p class="is-size-6" style="padding-bottom: 2rem;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quam odio magnam? Fugit illum hic blanditiis, non dolor, error facilis aperiam natus, dolores pariatur illo delectus praesentium. Rerum, iste.
+                        </p>
+                        <div class="center event-item event-item-8">
+                            <button class="button-2 btn-primary-2">VER MÁS<Script></Script></button>
+                        </div>
+                    </div>                
+                </div>
             </div>
         </div>
-    </div>  
-    <div class="servicios servicios-hero">
-        <p class="servicios-title">Servicios</p>
-        <p class="servicios-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aliquid sit ex excepturi temporibus molestias itaque, voluptas aperiam sapiente impedit a nostrum atque tenetur amet voluptatibus quidem hic obcaecati laboriosam?</p>
-        <button class="btn-3 btn-primary-3 btn-xl container-btn">VER MÁS</button>
-    </div>
+    </section>
+    
+    <!--Custom Script-->
+    <script type="text/javascript" src="script.js"></script>
   </body>
+  <section class="hero-2 center">
+        <div class="hero-body bg-img center">
+            <div class="container">
+                <div>
+                    <p class="servicios-title" style="padding-bottom: 5rem;">Servicios</p>
+                </div>
+                <div>
+                    <p class="servicios-text" style="padding-bottom: 5rem;">
+                        <br>Lorem ipsum dolor sit amet consectetur, 
+                        <br>adipisicing elit. Adipisci deleniti quo, 
+                        <br>doloribus pariatur similique aperiam. 
+                        <br>Id harum quia facilis enim, laborum vel 
+                        <br>ipsam reiciendis, ducimus quibusdam 
+                        <br>aliquid mollitia, ex ea.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn-3 btn-primary-3">VER MÁS</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </html>
